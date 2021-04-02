@@ -1,0 +1,24 @@
+{
+  "name": "Tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tw:build": "NODE_ENV=development postcss build src/css/tailwind.css -o tailwind.css --verbose -w",
+    "tw:watch": "watch 'npm run tw:build' ./public/HTML"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.0",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.8",
+    "tailwindcss": "^2.0.3"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.4.0",
+    "postcss-cli": "^8.3.1",
+    "watch": "^1.0.2"
+  }
+}
