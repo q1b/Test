@@ -1,40 +1,214 @@
-<!DOCTYPE html>
-<html lang="en" class="dark">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="How all this world WorKs,?">
-        <meta name="keywords" content="Divyamrit Blog,Blogs by Divyamrit,Divyamrit Articles">
-        <meta name="author" content="Divyamrit||Sukhpreet Singh">
-        <meta name="theme-color" content="#0a1824">
-        <title>Divyamrit Notes</title>
-        <link rel="icon" href="./favicon.ico">
-        <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
-        <script src="App.js" defer></script>
-        <link rel="manifest" href="manifest.json">
-        <link rel="stylesheet" href="tailwind.css">
-        <style>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="How all this world WorKs,?" />
+    <meta
+      name="keywords"
+      content="Divyamrit Blog,Blogs by Divyamrit,Divyamrit Articles"
+    />
+    <meta name="author" content="Divyamrit||Sukhpreet Singh" />
+    <meta name="theme-color" content="#0a1824" />
+    <title>Divyamrit Notes</title>
+    <link rel="icon" href="./favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./icons/favicon-16x16.png"
+    />
+    <script src="App.js" defer></script>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="tailwind.css" />
+    <link rel="stylesheet" href="hamburger.css">
+    <style>
       .butInstall {
-        background-color: #FF0066;
+        background-color: #44009f;
         color: white;
-        font-size: 1.2rem;
-        padding: 1rem;
+        font-size: 0.8rem;
+        padding-top: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 1rem;
         border-radius: 9999px;
       }
-      .divInstall{
+      .divInstall {
         position: relative;
         display: flex;
         padding-bottom: 1rem;
         justify-content: center;
       }
-        </style>
+    </style>
   </head>
-  
-  <body class="bg-black font-mono prose prose-lg max-w-none sm:prose-xl md:prose-2xl">
-    <section class="font-p mx-7 my-4">
+
+  <body
+    class="select-none bg-black font-mono flex flex-row"
+  >
+  <!-- hamburger -->
+     <div class="z-20 bottom-2 right-4 fixed w-20 h-20">
+      <div class="three col">
+        <div class="hamburger" id="hamburger-9">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </div>
+      </div>
+      <!-- Navigation bar -->
+    <section id="Nav" class="hidden relative overflow-y-auto z-10 bg-white">
+    <nav
+      id="nav"
+      class="ml-6 px-1 pt-6 font-p font-thin text-base sm:px-3 xl:px-5 pb-10 lg:pt-10 lg:pb-14"
+    >     
+      <ul>
+        <li class="mt-8">
+          <h3
+            class="px-3 mb-3 lg:mb-3 uppercase tracking-wide font-semibold text-md text-gray-900"
+          >
+          Solid State Ncert Notes 
+          </h3>
+          <ul>
+            <li>
+              <a
+                class="px-3 py-2 transition-colors duration-200 relative block hover:text-gray-900 text-gray-500"
+                href="/docs/installation"
+                ><span
+                  class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"
+                ></span
+                ><span class="relative">Introduction</span></a
+              >
+            </li>
+            <li>
+              <a
+                class="px-3 py-2 transition-colors duration-200 relative block hover:text-gray-900 text-gray-500"
+                href="/docs/installation"
+                ><span
+                  class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"
+                ></span
+                ><span class="relative">Gernal Characterstics of Solid State</span></a
+              >
+            </li>
+            <li>
+              <a
+                class="px-3 py-2 transition-colors duration-200 relative block hover:text-gray-900 text-gray-500"
+                href="https://blog.tailwindcss.com/tailwindcss-v2"
+                ><span
+                  class="rounded-md bg-blue-100"
+                ></span
+                ><span class="relative">Amorphous and Crystalline Solids</span></a
+              >
+            </li>
+            <li>
+              <a
+                class="px-3 py-2 transition-colors duration-200 relative block hover:text-gray-900 text-gray-500"
+                href="/docs/upgrading-to-v2"
+                ><span
+                  class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"
+                ></span
+                ><span class="relative">Classification of Crystalline Solids</span></a
+              >
+            </li>
+            <li>
+              <a
+                class="px-3 py-2 transition-colors duration-200 relative block hover:text-gray-900 text-gray-500"
+                href="/docs/using-with-preprocessors"
+                ><span
+                  class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"
+                ></span
+                ><span class="relative">Crystal Lattice and Unit Cell</span></a
+              >
+            </li>
+            <li>
+              <a
+                class="px-3 py-2 transition-colors duration-200 relative block hover:text-gray-900 text-gray-500"
+                href="/docs/optimizing-for-production"
+                ><span
+                  class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"
+                ></span
+                ><span class="relative">Number of Atoms in Unit Cell</span></a
+              >
+            </li>
+            <li>
+              <a
+                class="px-3 py-2 transition-colors duration-200 relative block hover:text-gray-900 text-gray-500"
+                href="/docs/browser-support"
+                ><span
+                  class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"
+                ></span
+                ><span class="relative">Closed Packed Structures</span></a
+              >
+            </li>
+            <li>
+              <a
+                class="px-3 py-2 transition-colors duration-200 relative block hover:text-gray-900 text-gray-500"
+                href="/docs/intellisense"
+                ><span
+                  class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"
+                ></span
+                ><span class="relative">Packing Efficiency</span></a
+              >
+            </li>
+            <li>
+              <a
+                class="px-3 py-2 transition-colors duration-200 relative block hover:text-gray-900 text-gray-500"
+                href="/docs/intellisense"
+                ><span
+                  class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"
+                ></span
+                ><span class="relative">Calculations Involving Unit Cell Dimensions</span></a
+              >
+            </li>
+            <li>
+              <a
+                class="px-3 py-2 transition-colors duration-200 relative block hover:text-gray-900 text-gray-500"
+                href="/docs/intellisense"
+                ><span
+                  class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"
+                ></span
+                ><span class="relative">Imperfections in Solid</span></a
+              >
+            </li>
+            <li>
+              <a
+                class="px-3 py-2 transition-colors duration-200 relative block hover:text-gray-900 text-gray-500"
+                href="/docs/intellisense"
+                ><span
+                  class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"
+                ></span
+                ><span class="relative">Electrical Properties</span></a
+              >
+            </li>
+            <li>
+              <a
+                class="px-3 py-2 transition-colors duration-200 relative block hover:text-gray-900 text-gray-500"
+                href="/docs/intellisense"
+                ><span
+                  class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"
+                ></span
+                ><span class="relative">Magnetic Properties</span></a
+              >
+            </li>
+          </ul>
+        </li>
+       </ul>
+      </li>
+     </ul>
+    </nav>
+    </section>
+    <div id="Content" class="flex flex-col mt-4 ">
+    <section class="font-p mx-7 prose max-w-none">
       <p class="text-4xl text-center">Introduction</p>
       <blockquote>
         <p class="text-gray-400">
@@ -42,7 +216,7 @@
           oscillating, about there mean position.
         </p>
       </blockquote>
-      <h3>Factors on which the State of a substance depens:</h3>
+      <h3>Factors on which the State of a substance depends:</h3>
       <ul class="text-gray-500">
         <li>Intermolecular attractions (Force that keeps molecules closer).</li>
         <li>Thermal Energy (Forse that keeps them apart).</li>
@@ -52,18 +226,82 @@
         force brings molecules too close that they are seems to be at same
         position.
       </p>
-    </section>
-    <section class="font-p mx-7 mt-20">
+      </section>
+    <section class="font-p mx-7 mt-20 prose">
       <p class="text-2xl text-gray-500">Properties of Solid</p>
       <ul class="text-gray-500">
         <li>They are incompressible and rigid.</li>
         <li>Intermolecular force are strong.</li>
         <li>Intermolecular distance are short.</li>
       </ul>
-      <p class="italic"></p>
+      </section>
+      <div class="prose px-3 max-w-none flex flex-col w-full items-center">
+      <h1>Amorphous and Crystalline Solids</h1>
+      <div class="px-3 max-w-[40rem] py-2 rounded-xl self-center overflow-hidden bg-gradient-to-r from-emerald-200 to-teal-300">
+      <table class="table-auto">
+        <thead>
+          <tr>
+            <th class=" px-4 py-2 text-teal-800">Amorphous</th>
+            <th class=" px-4 py-2 text-teal-800">Crystalline</th>
+           </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border border-teal-600  p-2 text-teal-600 font-medium">Irregular Shape</td>
+            <td class="border border-teal-600  p-2 text-teal-600 font-medium">Regular Shape</td>
+          </tr>
+          <tr class="bg-emerald-200">
+            <td class="border border-teal-600 px-4 py-2 text-teal-600 font-medium">Long range of Melting point</td>
+            <td class="border border-teal-600 px-4 py-2 text-teal-600 font-medium">Sharp Melting point</td>
+          </tr>
+          <tr>
+            <td class="border border-teal-600 px-4 py-2 text-teal-600 font-medium">Pseudo Solids</td>
+            <td class="border border-teal-600 px-4 py-2 text-teal-600 font-medium">True Solids</td>
+          </tr>
+          <tr>
+            <td class="border border-teal-600 px-4 py-2 text-teal-600 font-medium">Only Short range order</td>
+            <td class="border border-teal-600 px-4 py-2 text-teal-600 font-medium">Long range order</td>
+          </tr>
+          <tr>
+            <td class="border border-teal-600 px-4 py-2 text-teal-600 font-medium">Isotropic in Nature</td>
+            <td class="border border-teal-600 px-4 py-2 text-teal-600 font-medium">Anisotropic in Nature</td>
+          </tr>
+            </tbody>
+          </table>
+          </div>
+          </div>
+
+
       <div class="divInstall">
-          <button class="butInstall">Install App for Fun !</button>
+        <button class="hidden butInstall">Install App for Fun !</button>
       </div>
-    </section>
+    </div>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      function toggleHamburger() {
+        hamburger.classList.toggle("is-active")
+        nav.classList.toggle("hidden")
+        content.classList.toggle("hidden")
+      }
+      const nav = document.querySelector("#Nav")
+      const content = document.querySelector("#Content")
+      hamburger.addEventListener('click',toggleHamburger);
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    
+        $(document).ready(function () {
+
+          if (localStorage.getItem("my_app_name_here-quote-scroll") != null) {
+          $(window).scrollTop(localStorage.getItem("my_app_name_here-quote-scroll"));
+      }
+
+        $(window).on("scroll", function() {
+            localStorage.setItem("my_app_name_here-quote-scroll", $(window).scrollTop());
+        });
+
+      });
+
+    </script>
   </body>
 </html>
