@@ -2,6 +2,7 @@ const staticCacheName = 'site-static';
 
 const assets = [
     './index.html',
+    './hamburger.css',
     './Relation_and_function.html',
     './trignometry.html',
     './Matrix.html',
